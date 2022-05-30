@@ -212,3 +212,33 @@ select:-webkit-autofill:focus {
 .btn:active {
   opacity: 0.6;
 }
+
+/* FOOTER */
+.site-footer {
+  background: #222;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.site-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer-container .site-logo-link {
+  color: #fff;
+}
+.site-footer-container .site-logo-link:hover {
+  color: #de2e54;
+}
+.site-footer-container .site-logo-link:active {
+  opacity: 0.6;
+}
+.site-footer-container .sitenav .sitenav-link {
+  color: #fff;
+}
+.site-footer-container .sitenav .sitenav-link:hover {
+  color: #de2e54;
+}
+.site-footer-container .sitenav .sitenav-link:active {
+  opacity: 0.6;
+}
