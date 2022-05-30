@@ -124,3 +124,91 @@ select:-webkit-autofill:focus {
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
 }
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo-link {
+  display: flex;
+  align-items: center;
+  color: #222;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
+.site-logo-link:hover {
+  color: #de2e54;
+}
+.site-logo-link:active {
+  opacity: 0.6;
+}
+.site-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.sitenav {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.sitenav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+.sitenav-link {
+  text-decoration: none;
+  color: #222;
+  display: block;
+}
+.sitenav-link:hover {
+  color: #de2e54;
+}
+.sitenav-link:hover {
+  opacity: 0.6;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #de2e54;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 10px 22px;
+}
+.btn:hover {
+  background: transparent;
+  border: 2px solid #de2e54;
+  color: #de2e54;
+}
+.btn:active {
+  opacity: 0.6;
+}
