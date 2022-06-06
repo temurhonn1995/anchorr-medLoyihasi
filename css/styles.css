@@ -325,3 +325,62 @@ select:-webkit-autofill:focus {
   line-height: 150%;
   color: #444444;
 }
+.features-heading {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #000000;
+  margin-bottom: 56px;
+}
+.notification {
+  background: #0eb4c1;
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.notification-item-wrapper {
+  display: flex;
+  align-items: center;
+}
+.notification-item {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 120%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 3px solid white;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+.notification-item:hover {
+  background: #de2e54;
+  color: #fff;
+  border: 3px solid transparent;
+}
+
+.notification-item:active {
+  opacity: 0.6;
+}
+.notification-item:not(:last-child) {
+  margin-right: 88px;
+}
+.notification-heading {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #ffffff;
+}
